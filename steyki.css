@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    background: white;
+}
+.nav__img{
+    width: 200px;
+    height: 50px;
+}
+.nav__search{
+    width: 70%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px 0px 0px 5px;
+    margin-left: 5px;
+}
+.nav__icons{
+    width: 40px;
+    height: 40px;
+    background: red;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__icons i{
+    font-size: 25px;
+    color: white;
+}
+.nav__icon_div i{
+    color:red;
+    font-size: 25px;
+    margin-left: 35px;
+}
+.nav__icon_div{
+    display: flex;
+}
+.icon_div__account{
+    color:black;
+    position: absolute;
+    top: 50px;
+    left: 87%;
+}
+.icon_div__lists{
+    position: absolute;
+    top: 50px;
+    left: 92%;
+}
+.icon_div__card{
+    position: absolute;
+    top: 50px;
+    left: 96%;
+}
+.navbar{
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    background: white;
+    position: fixed;
+    top:70px;
+}
+.navbar__collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.collection__item{
+list-style: none;
+margin-top: 5px;
+}
+.slew{
+    color: gray
+}
+.danger{
+    color: brown;
+}
+.background__img{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 110px;
+    background: url("./11282022-HP-A1-INTL-CW-1400x550_DSK-INTL-min.webp") no-repeat center/cover;
+}
+.background__img img{
+    width: 100%;    
+}
+.deals{
+    text-align: center;
+    margin-top: 50px;
+}
+.perend{
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.chail1{
+    width: 220px;
+    height: 300px;
+}
+.img1{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+}
+.extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 100px;
+}
+.chail1__img10{
+    width: 250px;
+    height: 200px;
+background: url("./11262022-CA-V2-HB_INTL-CAN_1.jpg") no-repeat center/cover;
+margin-top: 30px;
+}
+.chail1__img11{
+    width: 200px;
+    height: 200px;
+    background: url("./11142022_HB_INTL-CAN_1.svg") no-repeat center/cover;
+    z-index: 10;
+    margin: auto;
+    margin-top: 20px;
+}
+.chail1__img12{
+    width: 250px;
+    height: 200px;
+background: url("./11262022-CA-V2-HB_INTL-CAN_5.jpg") no-repeat center/cover;
+margin-top: 30px; 
+}
+.chail1__img13{
+    width: 200px;
+    height: 200px;
+    background: url("./11142022_HB_INTL-CAN_6.svg") no-repeat center/cover;
+    z-index: 10;
+    margin: auto;
+    margin-top: 20px;
+}
+.chail1__img14{
+    width: 250px;
+    height: 200px;
+background: url("./11262022-US-V2-HB_DOMESTIC_2.jpg") no-repeat center/cover;
+margin-top: 30px;  
+}
+.chail1__img15{
+    width: 200px;
+    height: 200px;
+    background: url("./11142022_HB_INTL-CAN_6.svg") no-repeat center/cover;
+    z-index: 10;
+    margin: auto;
+    margin-top: 20px;
+}
+.chail1__img16{
+    width: 200px;
+    height: 190px;
+background: url("./11262022-CA-V2-HB_INTL-CAN_6.jpg") no-repeat center/cover;
+margin-top: 30px; 
+}
+.chail1__img17{
+    width: 200px;
+    height: 190px;
+background: url("./11262022-CA-V2-HB_INTL-CAN_2.jpg") no-repeat center/cover;
+margin-top: 30px; 
+}
+.img18{
+    background: url("./11292022_CW_HB_INTL-CAN_1.svg")no-repeat center/cover;
+    margin-top: 0;
+}
+.lugat{
+    text-align: center;
+}
+.lgat2{
+    margin-top: 90%;
+}
+.soz{
+    margin-top: 20px;
+}
+.text{
+    text-align: center;
+    margin-top: 0%;
+}
+.logo__div{
+    margin-left: 5%;
+}
+.img__box__bac__img{
+    width: 100%;
+}
+.img__box{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    background: url("./11282022-SB-Gifting-1400x550_Promo1.webp") no-repeat center/cover;
+}
+.lorem{
+    margin-top: 5%;
+}
+.box-saiz__img{
+    width: 200px;
+    height: 220px;
+    background: url("./11192021-CatSilo-Furniture.png") no-repeat center/cover;
+    margin-top: 50px;
+}
+.box-saiz{
+display: flex;
+margin-left: 100px;
+flex-wrap: wrap;
+}
+.box-saiz__img1{
+    width: 200px;
+    height: 220px;
+    background: url("./11152021-CatSilo-AreaRugs\ \(1\).png") no-repeat center/cover;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.box-saiz__img2{
+    width: 200px;
+    height: 220px;
+    background: url("./11152021-CatSilo-BedBath\ \(1\).png") no-repeat center/cover;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.box-saiz__img3{
+    width: 200px;
+    height: 220px;
+    background: url("./11152021-CatSilo-Decor\ \(1\).png") no-repeat center/cover;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.box-saiz__img4{
+    width: 200px;
+    height: 220px;
+    background: url("./CatSilo-Window-040721.jpg") no-repeat center/cover;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.box-saiz__img5{
+    width: 200px;
+    height: 220px;
+    background: url("./11152021-CatSilo-Kitchen\ \(1\).png") no-repeat center/cover;
+    margin-left: 20px;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.box-saiz__img6{
+    width: 200px;
+    height: 220px;
+    background: url("./11152022-CatSilo-Outdoor.png") no-repeat center/cover;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.box-saiz__img7{
+    width: 200px;
+    height: 220px;
+    background: url("./01112021-CatSilo-HomeImp\ \(1\).jpg") no-repeat center/cover;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.box-saiz__img8{
+    width: 200px;
+    height: 220px;
+    background: url("./11152021-CatSilo-Storage.webp") no-repeat center/cover;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.box-saiz__img9{
+    width: 200px;
+    height: 220px;
+    background: url("./01112021-CatSilo-Mattresses\ \(1\).jpg") no-repeat center/cover;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.box-saiz__img10{
+    width: 200px;
+    height: 220px;
+    background: url("./11152021-CatSilo-Lighting\ \(1\).png") no-repeat center/cover;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.box-saiz__img11{
+    width: 200px;
+    height: 220px;
+    background: url("./CatSilo-AllDeals-040721.jpg") no-repeat center/cover;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.text2{
+   color: gray;
+   margin-top: 120%;
+   text-align: center;
+}
+.title{
+    margin-top:100px;
+    text-align: center;
+}
+.carusel{
+    width: 100%;
+    /* height: 550px; */
+    display: flex;
+    overflow: auto;
+    margin: 30px auto;
+}
+.carusel__chayl{
+    width: 20%;
+    min-width: 24%;
+    height: 430px;
+    background: whitesmoke;
+    overflow: auto;
+    margin: 10px;
+}
+.carusel__chayl img{
+width: 100%;
+height: 330px;
+}
+.carusel__chayl__text{
+    margin-top: 10px;
+}
+.decor__img{
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    background: url("./11282022-SB-LivingRoomFurniture-1400x550_Promo2_INTL.jpg") no-repeat center/cover;
+}
+.decor__img img{
+    width: 100%;
+}
+.png_img{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
+.png_img_img{
+    width: 90%;
+    height: 400px;
+    background: url("./030822-RIUpdate-Dsk.jpg") no-repeat center/cover;
+    margin-top: 60px;
+}
+.png_img_img img{
+    width: 100%;
+}
+.text_title{
+    text-align: center;
+    margin-top: 100px;
+}
+.bac__img_box{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.bac__img_box_chilid{
+    width:50%;
+    height: 400px;
+    background: whitesmoke;
+    margin-left: 10px;
+}
+.bac__img_box_chilid img{
+width: 100%;
+height: 80%;
+}
+.bac__img_box_chilid_h2{
+    text-align: center;
+}
+.img_bac_card{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.img_bac_card_card{
+    width: 100%;
+    height: 600px;
+    background: whitesmoke;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.img_bac_card_card img{
+    width: 100%;
+    height: 85%;
+}
+.img_bac_card_card_h2{
+    margin-left: 20px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background: #333;
+    border-radius: 5px;
+    border: none;
+    margin-left: 45%;
+    margin-top: 50px;
+    cursor: pointer;
+}   
+.btn_perend_btn{
+    width: 30%;
+    height: 50px;
+    background: whitesmoke;
+    color: #444;
+    border: none;
+    margin-left: 20px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.btn_perend{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background: #555;
+    display: flex;
+   justify-content: space-around;
+   
+}
+footer h4{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+}
+.footer_box1{
+    margin-top: 100px;
+}
+.footer_box{
+    width: 100%;
+    height: 80px;
+    background: #222;
+    display: flex;
+    align-items: center;
+}
+.footer_box_text{
+    color: #fff;
+    flex: 0.9;
+    margin-left: 20px;
+}
+.foter_box_lorem{
+    color: #fff;
+    margin-left: 20px;
+}
+.foter_box_img{
+    margin-left: 20px;
+}
